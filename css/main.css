@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+ 
+}
+/* header uchun stillar */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ padding-top: 71px;
+ padding-left:80px;
+ 
+}
+body,html{
+    scroll-behavior: smooth;
+}
+
+.navigation h1{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+color: #000000;
+
+
+}
+.navigation h1 span{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+opacity: 50%;
+}
+.navigation ul{
+    display: flex;
+    gap: 40px;
+   
+}
+.navigation ul li a{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+color: #263238;
+}
+.navigation li a:active{
+    opacity: .5s;
+    opacity: 0.5;
+    transition: all .3s ease-in-out;
+}
+
+.btn{
+   
+ padding: 17px 52px;
+    width: 220px;
+    height: 70px;
+    top: 55px;
+    left: 1249px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+ color: #000000;
+ background-color: #ffff;
+    border-radius: 5px;
+    border: 2px; 
+    border: 2px solid #263238   
+    
+}
+
+
+.btn:active{
+   
+    color:white; 
+    background-color: #000000;
+}
+
+
+/* hero uchun stillar */
+.hero-section{
+    padding-top: 126px;
+  position: relative;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../img/svg/light-bulb-svgrepo-com\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: 553px 130px ;
+  }
+
+.hero-content{
+  padding-left: 80px;
+}
+.hero-content h2{
+    font-family: Poppins;
+font-size: 64px;
+padding-bottom: 40px;
+
+
+}
+.hero-content p{
+    padding-bottom: 61px;
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+color: #8F95A5;
+width: 632px;
+height: 108px;
+
+}
+.hero-content .btn2{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+color: #ffff;
+padding: 32px 117px;
+background: #263238;
+border-radius: 15px;
+margin-top: 61px;
+}
+/* skills-section uchun stillar */
+.Skills{
+    position: relative;
+    padding-bottom: 1182px;
+
+}
+
+.Skills h2{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+text-align:center;
+color: #000000;
+padding-top: 153px;
+padding-bottom: 92px;
+}
+
+
+ .Speak{
+    width: 435px;
+height: 894px;
+top: 1116px;
+left: 127px;
+background-color: #F5F5F5;
+
+padding-left: 28px;
+border-radius: 10px;
+position: absolute;
+left: 75px;
+top: 328px;
+}
+.Speak h3{
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 80px;
+padding-top: 9px;
+
+color: #263238;
+}
+.Speak p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   color: #8F95A5;
+
+     padding-bottom: 36px;
+}
+.btn3{
+    padding: 17px 64px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+   color: #ffff;
+   background: #263238;
+
+
+}
+.Writ{
+    width: 434px;
+height: 551px;
+top: 1116px;
+left: 580px;
+background-color: #F5F5F5;
+border-radius: 10px;
+padding-left: 28px;
+position: absolute;
+left: 528px;
+top: 325px;
+}
+
+
+.Writ img{
+    padding-top: 4px;
+padding-left: 80px;
+
+}
+.Writ h3{
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 80px;
+
+
+}
+.Writ p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #8F95A5;
+padding-bottom: 10px;
+}
+.Read{
+    width: 435px;
+height: 551px;
+top: 1115px;
+left: 1032px;
+background-color: #F5F5F5;
+border-radius: 10px;
+padding-left: 28px;
+position: absolute;
+top: 325px;
+left: 980px;
+}
+.Read h3{
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 80px;
+color: #263238;
+
+}
+.Read p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #8F95A5;
+padding-bottom: 55px;
+}
+.Listen{
+    width: 885px;
+height: 343px;
+top: 1667px;
+left: 580px;
+background-color: #F5F5F5;
+border-radius: 10px;
+display: flex;
+align-items: center;
+padding-left: 32px;
+position: absolute;
+left: 535px;
+top: 890px;
+}
+.Listen h3{
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 80px;
+color: #263238;
+
+}
+.Listen p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #8F95A5;
+padding-bottom: 25px;
+}
+.Listen img{
+    padding-left: 110px;
+}
+
+
+/* About-Us-section uchun stillar */
+
+.About-Us-section{
+  padding-left: 130px;
+ 
+}
+.About-Us{
+    position: relative;
+}
+.About-Us img{
+    position: absolute;
+   right: 90px;
+   top: 0px;
+}
+
+.About h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+   color: #000000;
+    padding-bottom: 23px;
+}
+.About p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+   color: #8F95A5;
+padding-bottom: 59px;
+    
+}
+.About ul li{
+    display: flex;
+    gap: 163px;
+    align-items: center;
+}
+.About ul li h3{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+
+}
+.About .Pupils p{
+padding-left: 20px;
+
+}
+.About .lang p{
+   padding-right: 60px; 
+}
+
+
+
+
+/* Pricing-section uchun stillar */
+.Pricing h2{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+text-align:center;
+color: #000000;
+padding-top: 229px;
+padding-bottom: 83px;
+}
+
+ .lesson-group{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+  
+}
+.cours{
+   padding-left: 50px;
+}
+.cours h3{
+    padding-top: 40px;
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+color: #263238;
+padding-bottom: 19px;
+}
+.cours p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #8F95A5;
+padding-bottom: 45px;
+}
+.btn4{
+    padding-right: 24px;
+    padding-left: 18px;
+    align-items: center;
+    border: none;
+    width: 240px;
+height: 45px;
+top: 3624px;
+left: 130px;
+background-color: #EEEEEE;
+border-radius: 5px;
+
+
+}
+.cours button{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+  color: #263238;
+ 
+}
+.cours button span{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #546269;
+padding-top: 5px;
+
+}
+.lesson h3{
+    padding-top: 42px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+   padding-bottom: 25px;
+    color: #263238;
+}
+.lesson p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #8F95A5;
+padding-bottom: 58px;
+}
+.btn4{
+    padding-right: 24px;
+    padding-left: 18px;
+  width: 240px;
+  height: 45px;
+  top: 3628px;
+  left: 609px;
+ background-color: #EEEEEE;
+  border-radius: 5px;
+align-items: center;
+  
+}
+.lesson button{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+  color: #263238;
+ 
+}
+.lesson button span{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #546269;
+padding-top: 5px;
+
+}
+.tuition h3{
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+color: #263238;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.tuition p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #8F95A5;
+padding-bottom: 58px;
+}
+.btn4{
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width: 240px;
+    height: 45px;
+    top: 3628px;
+    left: 609px;
+   background-color: #EEEEEE;
+    border-radius: 5px;
+  align-items: center;
+
+
+    
+}
+.tuition button{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+   color: #263238;
+    
+
+}
+.tuition button span{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+color: #546269;
+    
+    
+}
+
+
+/* "Contact-Us-section */
+
+.Contact-Us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 261px;
+    padding-left: 40px;
+}
+
+.contact h2{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+color: #000000;
+padding-bottom: 45px;
+
+}
+.contact p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #8F95A5;
+padding-bottom: 15px;
+padding-bottom: 60px;
+}
+.contect{
+    display: flex;
+    gap: 12px;
+}
+.input1 input{
+padding: 26px 250px 30px 33px;
+width: 450px;
+height: 80px;
+border-radius: 10px;
+border: 1px;
+border: 1px solid #8F95A5
+
+
+}
+.btn5{
+padding: 25px 81px;
+width: 264px;
+height: 80px;
+top: 4190px;
+left: 1163px;
+
+border-radius: 10px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+color: #ffffff;
+background-color: #263238;
+}
+
+
+/* footer uchun stillar */
+.Brit hr{
+margin-top: 133px;
+width: 1438px;
+height: 1px;
+background: #C4C4C4;
+margin-bottom: 31px;
+
+}
+.Brit-contact{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Brit-contact h2{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+padding-bottom: 36px;
+}
+.Brit-contact h2 span{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+opacity: 50%;
+
+}
+.Brit-contact p{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+color: #8F95A5;
+padding-bottom: 51px;
+}
