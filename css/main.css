@@ -56,12 +56,18 @@ font-size: 20px;
 font-weight: 500;
 line-height: 30px;
 color: #263238;
+
 }
-.navigation li a:active{
-    opacity: .5s;
-    opacity: 0.5;
-    transition: all .3s ease-in-out;
+.head li a:hover{
+    box-shadow: 0 3px 0 #000000; 
 }
+.navigation li a:hover{
+    
+   color: #999595;
+    transition: all .2s ease-in-out;
+  
+}
+
 
 .btn{
    
@@ -77,13 +83,14 @@ color: #263238;
  color: #000000;
  background-color: #ffff;
     border-radius: 5px;
+    transition: 0.5s ease-in-out;
     border: 2px; 
     border: 2px solid #263238   
     
 }
 
 
-.btn:active{
+.btn:hover{
    
     color:white; 
     background-color: #000000;
@@ -135,6 +142,13 @@ padding: 32px 117px;
 background: #263238;
 border-radius: 15px;
 margin-top: 61px;
+transition: 0.5s ease-in-out;
+}
+.btn2:hover{
+    background-color: #ffff;
+    color: #263238;
+    border-radius: 15px;
+    
 }
 /* skills-section uchun stillar */
 .Skills{
@@ -574,6 +588,7 @@ line-height: 30px;
 color: #ffffff;
 background-color: #263238;
 }
+
 
 
 /* footer uchun stillar */
